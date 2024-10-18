@@ -15,16 +15,13 @@ export default function AboutMe() {
         </div>
         <div
           data-aos="zoom-in"
-          className="h-[70px] w-fit bg-gray-900 bg-opacity-70 flex justify-center items-center flex-col px-5 py-2 rounded-3xl"
+          className="h-[70px] w-fit bg-gray-800 flex justify-center items-center flex-col px-5 py-2 rounded-3xl"
         >
           <p className="font-bold text-3xl text-yellow-500">3.2+</p>
           <p>Years Experience</p>
         </div>
       </div>
-      <div
-        data-aos="zoom-in"
-        className="mt-10 bg-gray-900 bg-opacity-70 p-5 rounded-3xl"
-      >
+      <div data-aos="zoom-in" className="mt-10 bg-gray-800 p-5 rounded-3xl">
         <p className="text-white" data-aos="zoom-in">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas
           nobis corrupti unde, optio possimus magni dolore fuga tempore
