@@ -25,7 +25,7 @@ export default function AboutMe() {
         data-aos="zoom-in"
         className="mt-10 bg-gray-900 bg-opacity-70 p-5 rounded-3xl"
       >
-        <p data-aos="zoom-in">
+        <p className="text-white" data-aos="zoom-in">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas
           nobis corrupti unde, optio possimus magni dolore fuga tempore
           necessitatibus hic aliquam impedit officia, nulla provident
