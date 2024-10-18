@@ -21,7 +21,7 @@ export default function AboutMe() {
           <p className="text-white">Years Experience</p>
         </div>
       </div>
-      <div data-aos="zoom-in" className="mt-10 bg-gray-800 p-5 rounded-3xl">
+      <div data-aos="zoom-in" className="mt-10 bg-gray-800 p-8 rounded-3xl">
         <p className="text-white" data-aos="zoom-in">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas
           nobis corrupti unde, optio possimus magni dolore fuga tempore
