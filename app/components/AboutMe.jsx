@@ -18,7 +18,7 @@ export default function AboutMe() {
           className="h-[70px] w-fit bg-gray-800 flex justify-center items-center flex-col px-5 py-2 rounded-3xl"
         >
           <p className="font-bold text-3xl text-yellow-500">3.2+</p>
-          <p>Years Experience</p>
+          <p className="text-white">Years Experience</p>
         </div>
       </div>
       <div data-aos="zoom-in" className="mt-10 bg-gray-800 p-5 rounded-3xl">
