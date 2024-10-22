@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Certificates from "./components/Certificates";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 
 export default function page() {
   useEffect(() => {
@@ -24,6 +25,7 @@ export default function page() {
       <Certificates />
       <Skill />
       <Project />
+      <Footer />
     </div>
   );
 }
