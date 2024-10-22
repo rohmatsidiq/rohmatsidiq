@@ -13,7 +13,7 @@ export default function ItemCertificate({
 }) {
   return (
     <Card data-aos="zoom-in" className="rounded-3xl border-none">
-      <div className="flex flex-col md:flex-row justify-between gap-3 md:items-center">
+      <div className="flex justify-between gap-3 md:items-center">
         <div className="bg-black rounded-full items-center flex gap-1 p-1 pr-3">
           <div className="w-[40px] h-[40px] bg-white flex justify-center items-center rounded-full overflow-hidden">
             <img src={logo} alt="logo" />
