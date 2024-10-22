@@ -5,17 +5,25 @@ import Hero from "./components/Hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Experience from "./components/Experience";
+import Certificates from "./components/Certificates";
+import Skill from "./components/Skill";
+import Project from "./components/Project";
 
 export default function page() {
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Durasi animasi dalam milidetik (opsional)
+      duration: 1500, // Durasi animasi dalam milidetik (opsional)
     });
   }, []);
   return (
     <div>
       <Hero />
       <AboutMe />
+      <Experience />
+      <Certificates />
+      <Skill />
+      <Project />
     </div>
   );
 }

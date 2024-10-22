@@ -22,7 +22,7 @@ export default function Hero() {
           Experience
         </SubTitle>
       </div>
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <Button
           data-aos="zoom-in"
           type="primary"
@@ -32,11 +32,10 @@ export default function Hero() {
         >
           Hire Me
         </Button>
-      </div>
+      </div> */}
 
       <div className="mt-20 relative w-fit mx-auto">
         <img
-          data-aos="zoom-in"
           src="/man.png"
           alt="programmer"
           className="w-full max-w-[450px] mx-auto"

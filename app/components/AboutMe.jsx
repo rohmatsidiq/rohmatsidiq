@@ -4,7 +4,9 @@ export default function AboutMe() {
   return (
     <div className="p-5 py-20 max-w-5xl mx-auto">
       <div className="text-yellow-500 text-center">
-        <Title>About Me</Title>
+        <Title>
+          <span className="text-yellow-500">About Me</span>
+        </Title>
       </div>
       <div className="flex gap-3 items-center mt-10">
         <div
@@ -23,18 +25,12 @@ export default function AboutMe() {
       </div>
       <div data-aos="zoom-in" className="mt-10 bg-gray-800 p-8 rounded-3xl">
         <p className="text-white" data-aos="zoom-in">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas
-          nobis corrupti unde, optio possimus magni dolore fuga tempore
-          necessitatibus hic aliquam impedit officia, nulla provident
-          reprehenderit tempora saepe consectetur modi laborum voluptate dolorem
-          sed. Architecto, officia soluta maiores nam possimus quis animi
-          dignissimos quaerat porro natus quod aspernatur quae eos dicta
-          deleniti fuga eveniet aliquam laudantium laboriosam obcaecati autem.
-          Quod aspernatur, sint doloribus rem deserunt inventore nihil corporis
-          error cumque cum aliquid atque beatae nostrum sequi modi earum
-          pariatur magnam quia reiciendis quas assumenda. Pariatur soluta
-          laudantium incidunt, officia voluptates hic odio consequatur, fugit
-          voluptate error esse nobis distinctio.
+          I'm a Fullstack JavaScript Developer with a passion for building
+          efficient, scalable web applications. With expertise in both frontend
+          and backend technologies, I bring a holistic approach to web
+          development. From crafting seamless user experiences to ensuring
+          robust backend systems, my goal is to deliver solutions that are both
+          functional and beautifully designed.
         </p>
       </div>
     </div>
